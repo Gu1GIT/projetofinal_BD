@@ -97,6 +97,4 @@ public class CadastroEvento extends AppCompatActivity {
     private void erroMensagem() {
         Toast.makeText(CadastroEvento.this, "É obrigatório preencher todos os campos", Toast.LENGTH_LONG).show();
     }
-
-
 }
