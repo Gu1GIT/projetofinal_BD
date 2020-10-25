@@ -17,7 +17,6 @@ import java.util.Date;
 
 public class CadastroEvento extends AppCompatActivity {
 
-    private boolean edicao = false;
     private boolean excluir = false;
     private int id = 0;
     private DateFormat data;
