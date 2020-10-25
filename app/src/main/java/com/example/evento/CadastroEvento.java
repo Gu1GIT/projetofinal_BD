@@ -81,7 +81,7 @@ public class CadastroEvento extends AppCompatActivity {
 
 
             if (excluir) {
-                boolean excluir = eventoDAO.excluir(evento);
+                eventoDAO.excluir(evento);
             } else {
                 boolean salvou = eventoDAO.salvar(evento);
                 if (!salvou) {
